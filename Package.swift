@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "YandexMapsMobileLite",
     defaultLocalization: "en",
-    platforms: [.iOS("12.0")],
+    platforms: [.iOS("15.0")],
     products: [
         .library(
             name: "YandexMapsMobileLite",
@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "YandexMapsMobileLite",
-            url: "https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.33.1-lite.framework.zip",
-            checksum: "f8f2b2c515afd69c9070807192565c207bb5843a3a2d78258129a7727f58f6a4"
+            url: "https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.36.0-lite.framework.zip",
+            checksum: "816c63f2f15783f30a43cb39fbf696c8796b4f39628bae3db701e79fa913c7ec"
         ),
         .target(
             name: "YandexMapsMobileLiteResources",
