@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "YandexMapsMobileLite",
-            url: "https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.38.0-lite.framework.zip",
-            checksum: "9399562b0ca939b781830d6d4124a869cb2e50dde78c2cadb30bb247513eddf4"
+            url: "https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.38.1-lite.framework.zip",
+            checksum: "96a4e999f4efc0bf355dcc84268d19239e740b54ca2da3d240adec2c408581c4"
         ),
         .target(
             name: "YandexMapsMobileLiteResources",
